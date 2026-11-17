@@ -1,41 +1,34 @@
-# Volve Dataset License
+# Lisensi Data Volve
 
-This project uses production data derived from the **Volve field dataset** released by Equinor.
+Proyek ini menggunakan data produksi yang berasal dari **dataset lapangan
+Volve** yang dirilis oleh Equinor.
 
-## About the Volve Dataset
+## Tentang dataset
 
-The Volve field dataset contains daily production data from the Volve field in the North Sea (2007-2016). Equinor released this comprehensive dataset to support research, education, and technology development.
+Dataset Volve berisi data produksi harian dari lapangan Volve di Laut Utara
+untuk periode 2007–2016. Equinor merilisnya untuk mendukung penelitian,
+pendidikan, dan pengembangan teknologi.
 
-## Data Processing
+Sebagian data produksi dalam proyek ini merupakan data turunan. Pemrosesan dan
+upsampling sintetis dapat mengubah resolusi data, tetapi tidak menghapus
+kewajiban atribusi terhadap sumber asli.
 
-The original Volve dataset provides **daily production data**. For this project, the data has been **synthetically upsampled to hourly intervals** while preserving:
-- General statistical distribution of the original data
-- Physics and thermodynamics constraints of oil production systems
+## Lisensi
 
-This upsampling creates a realistic simulation of real-time production data suitable for demonstrating streaming systems.
+Data asli dan data turunan tunduk pada **Creative Commons
+Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)**.
 
-## License
+- Sumber: <https://www.equinor.com/energy/volve-data-sharing>
+- Teks lisensi: <https://creativecommons.org/licenses/by-nc-sa/4.0/>
 
-The original Volve dataset is released under the **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0)**.
+Kode program proyek ini terpisah dari lisensi data. Pastikan setiap distribusi
+data tetap mematuhi ketentuan nonkomersial, atribusi, dan berbagi-serupa yang
+berlaku.
 
-- **Source**: [Equinor Data Village - Volve Data](https://www.equinor.com/energy/volve-data-sharing)
-- **License**: [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+## Atribusi
 
-## Attribution
+Gunakan atribusi berikut ketika data proyek ini dipakai:
 
-When using this project, please provide appropriate credit to Equinor for the original dataset:
-
-> This project uses data derived from the Volve field dataset released by Equinor under CC BY-NC-SA 4.0 license.
-> Source: https://www.equinor.com/energy/volve-data-sharing
-
-## Important Notes
-
-- The Volve dataset license (CC BY-NC-SA 4.0) applies to the **data files** (original and derived)
-- The FloData **software code** is licensed separately under the MIT License (see LICENSE file)
-- Users may substitute their own datasets for commercial applications
-- Please comply with the terms of the Volve dataset license when using the included production data
-
-## References
-
-- Equinor Data Village: https://www.equinor.com/energy/volve-data-sharing
-- Volve Dataset Documentation: Available through the Equinor Data Portal
+> Proyek ini menggunakan data yang berasal dari dataset lapangan Volve yang
+> dirilis oleh Equinor berdasarkan lisensi CC BY-NC-SA 4.0.
+> Sumber: https://www.equinor.com/energy/volve-data-sharing
